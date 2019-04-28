@@ -13,4 +13,6 @@ const (
 	CopyFileOperation = 4
 	// RenameOperation when file rename
 	RenameOperation = 5
+	// MoveBackOperation when file rename
+	MoveBackOperation = 10
 )
