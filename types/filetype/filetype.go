@@ -11,8 +11,14 @@ const (
 	ImageType int32 = 20
 	// VideoType for video
 	VideoType int32 = 30
-	// OfficeType word, excel,powerpoint...
-	OfficeType int32 = 40
+	// DocumentType word, excel,powerpoint...
+	DocumentType int32 = 40
 	// AudioType for audio files
 	AudioType int32 = 50
+
+	// ArchiveType file
+	ArchiveType int32 = 60
+
+	// TorrentType BT
+	TorrentType int32 = 70
 )
