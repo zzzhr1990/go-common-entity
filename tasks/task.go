@@ -30,4 +30,12 @@ const (
 	OfflineDownloadBilibili int32 = 5080
 	// OfflineCopyDirect if file completed, just copy user file
 	OfflineCopyDirect int32 = 6010
+
+	///////////////////////////
+
+	// VideoPreviewGenerate generate video
+	VideoPreviewGenerate int32 = 7010
+	// AudioPreviewGenerate generate audio
+	AudioPreviewGenerate int32 = 7020
+	//////////////////////////
 )
