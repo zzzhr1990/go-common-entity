@@ -5,6 +5,9 @@ package tasks
 const (
 	//FileMimeDetect detect file mime
 	FileMimeDetect int32 = 1001
+
+	//FileDupDelete detect file mime
+	FileDupDelete int32 = 1005
 	// OfflineDownloadDetect detect
 	// Detect Unkown Download Task
 	OfflineDownloadDetect int32 = 5001
