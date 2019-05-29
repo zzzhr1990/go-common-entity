@@ -1,13 +1,6 @@
-package tasks
-
-// github.com/zzzhr1990/go-common-entity/tasks
+package offline
 
 const (
-	//FileMimeDetect detect file mime
-	FileMimeDetect int32 = 1001
-
-	//FileDupDelete detect file mime
-	FileDupDelete int32 = 1005
 	// OfflineDownloadDetect detect
 	// Detect Unkown Download Task
 	OfflineDownloadDetect int32 = 5001
@@ -33,12 +26,4 @@ const (
 	OfflineDownloadBilibili int32 = 5080
 	// OfflineCopyDirect if file completed, just copy user file
 	OfflineCopyDirect int32 = 6010
-
-	///////////////////////////
-
-	// VideoPreviewGenerate generate video
-	VideoPreviewGenerate int32 = 7010
-	// AudioPreviewGenerate generate audio
-	AudioPreviewGenerate int32 = 7020
-	//////////////////////////
 )

@@ -1,5 +1,7 @@
 package content
 
+// github.com/zzzhr1990/go-common-entity/flags/content
+
 const (
 	// FlagPornContent      BIN 001
 	FlagPornContent int32 = 1
