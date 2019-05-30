@@ -1,5 +1,7 @@
 package file
 
+// github.com/zzzhr1990/go-common-entity/tasks/file
+
 const (
 	//FileMimeDetect detect file mime
 	FileMimeDetect int32 = 1001
