@@ -20,6 +20,6 @@ const (
 
 	// UserFileDelete detect pron
 	UserFileDelete int32 = 1110
-	// UserFileReIndex detect pron
-	UserFileReIndex int32 = 1150
+	// UserFileReCount detect pron
+	UserFileReCount int32 = 1150
 )
