@@ -1,6 +1,6 @@
 package common
 
-//  github.com/zzzhr1990/go-server-common/mq/common
+//  github.com/zzzhr1990/go-common-entity/mq/common
 
 import (
 	"encoding/json"
