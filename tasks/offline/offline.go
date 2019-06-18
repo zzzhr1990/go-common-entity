@@ -24,6 +24,8 @@ const (
 	OfflineDownloadBaidu int32 = 5070
 	// OfflineDownloadBilibili bili
 	OfflineDownloadBilibili int32 = 5080
+	// OfflineDownloadYoutube bili
+	OfflineDownloadYoutube int32 = 5090
 	// OfflineCopyDirect if file completed, just copy user file
 	OfflineCopyDirect int32 = 6010
 )
