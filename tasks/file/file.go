@@ -22,4 +22,6 @@ const (
 	UserFileDelete int32 = 1110
 	// UserFileReCount detect pron
 	UserFileReCount int32 = 1150
+	//DetectIllegal illegal
+	DetectIllegal int32 = 1210
 )
