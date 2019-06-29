@@ -9,4 +9,10 @@ const (
 	HLS int32 = 3010
 	// MP3 HLS play
 	MP3 int32 = 3020
+
+	// Image img
+	Image int32 = 3030
+
+	// Document prw
+	Document int32 = 3040
 )
