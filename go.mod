@@ -1,3 +1,3 @@
 module github.com/zzzhr1990/go-common-entity
 
-go 1.12
+go 1.13
