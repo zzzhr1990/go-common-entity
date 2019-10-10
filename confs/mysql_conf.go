@@ -1,7 +1,7 @@
 package confs
 
-// DatabaseConfig config for common
-type DatabaseConfig struct {
+// MySQLConf config for common
+type MySQLConf struct {
 	SlaveDatabaseConnectionString  []string `yaml:"slave-database-connection-string"`
 	MasterDatabaseConnectionString []string `yaml:"master-database-connection-string"`
 	DatabaseDialect                string   `yaml:"database-dialect"`
