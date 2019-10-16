@@ -1,6 +1,6 @@
 package confs
 
-// MySQLConf config for common
+// MySQLConf config for common just for mysql
 type MySQLConf struct {
 	SlaveConnectionString  []string `yaml:"slave-connection-string"`
 	MasterConnectionString []string `yaml:"master-connection-string"`
