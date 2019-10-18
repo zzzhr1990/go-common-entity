@@ -28,6 +28,24 @@ func (p *FormattedPath) GetPath() string {
 	return p.Path
 }
 
+// GetParentPath get file name
+func (p *FormattedPath) GetParentPath() string {
+	idx := strings.LastIndex(p.Path, "/")
+	if idx < 1 {
+		return "/"
+	}
+	sub := p.Path[:idx]
+	if len(sub) == 0 {
+		return "/"
+	}
+	return sub
+}
+
+// IsRoot get is the root dir
+func (p *FormattedPath) IsRoot() bool {
+	return p.Path == "" || p.Path == "/"
+}
+
 // GetIdentity get file name
 func (p *FormattedPath) GetIdentity() string {
 	return p.Identity
