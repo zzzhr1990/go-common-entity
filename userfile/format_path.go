@@ -51,6 +51,21 @@ func (p *FormattedPath) GetIdentity() string {
 	return p.Identity
 }
 
+/*
+// GetFileName
+func (p *FormattedPath) GetFileName() string {
+	start := p.Path
+	idx := strings.LastIndex(start, "/")
+	result := ""
+	if idx > -1 {
+	   result = start[idx + 1:]
+	} else {
+	   result = start
+	}
+	return result
+  }
+*/
+
 // NewFormattedPath new instance
 func NewFormattedPath(path string) *FormattedPath {
 	cleanStr := strings.Replace(strings.Trim(path, " \r\n\t"), "\\", "/", -1)
