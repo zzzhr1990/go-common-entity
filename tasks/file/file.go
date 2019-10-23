@@ -24,4 +24,18 @@ const (
 	UserFileReCount int32 = 1150
 	//DetectIllegal illegal
 	DetectIllegal int32 = 1210
+
+	// TrashFile trash file to dust
+	TrashFile int32 = 1310
+	// RecoverFile recover file from trash
+	RecoverFile int32 = 1320
+
+	// RenameFile recover file from trash
+	RenameFile int32 = 1330
+
+	// MoveFile recover file from trash
+	MoveFile int32 = 1340
+
+	// CopyFile copy file to dest
+	CopyFile int32 = 1350
 )
