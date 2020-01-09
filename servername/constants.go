@@ -9,7 +9,7 @@ const (
 	//CloudSroreRPCServiceName file
 	CloudSroreRPCServiceName = "go-cloud-store"
 	//RemoteTaskRPCServiceName file
-	RemoteTaskRPCServiceName = "go-remote-task"
+	TaskCenterRPCServiceName = "simple-task-center"
 	//OfflineDownloadUserServiceName offline
 	OfflineDownloadUserServiceName = "go-user-offline-download"
 	//OfflineDownloadSystemServiceName server service
