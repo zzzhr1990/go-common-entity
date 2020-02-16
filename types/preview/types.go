@@ -15,4 +15,7 @@ const (
 
 	// Document prw
 	Document int32 = 3040
+
+	// Archive prw
+	Archive int32 = 3050
 )

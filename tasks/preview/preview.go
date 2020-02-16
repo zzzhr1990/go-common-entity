@@ -12,5 +12,7 @@ const (
 	ImagePreviewGenerate int32 = 7030
 	// ArchivePreviewGenerate generate audio
 	ArchivePreviewGenerate int32 = 7040
+	// DocumentPreviewGenerate generate audio
+	DocumentPreviewGenerate int32 = 7050
 	//////////////////////////
 )
