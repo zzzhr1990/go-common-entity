@@ -14,4 +14,6 @@ const (
 	OfflineDownloadUserServiceName = "go-user-offline-download"
 	//OfflineDownloadSystemServiceName server service
 	OfflineDownloadSystemServiceName = "go-system-offline-download"
+	// MediaFilePreviewServiceName mfp
+	MediaFilePreviewServiceName = "media-file-preview"
 )
