@@ -1,5 +1,5 @@
 package preview
-
+// github.com/zzzhr1990/go-common-entity/types/preview
 const (
 
 	///////////////////////////

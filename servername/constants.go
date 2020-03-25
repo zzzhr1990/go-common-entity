@@ -16,4 +16,6 @@ const (
 	OfflineDownloadSystemServiceName = "go-system-offline-download"
 	// MediaFilePreviewServiceName mfp
 	MediaFilePreviewServiceName = "media-file-preview"
+	// SubtitleServiceName service for subtitle
+	SubtitleServiceName = "subtitle"
 )
