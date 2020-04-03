@@ -1,5 +1,12 @@
 package confs
 
+// QcloudCMQConfig config CMQ setting
+type QcloudCMQConfig struct {
+	SecretID  string `yaml:"secret-id"`
+	SecretKey string `yaml:"secret-key"`
+	QueueName string `yaml:"queue"`
+}
+
 // AmqpConfig config MQ setting
 type AmqpConfig struct {
 	ConnectString    string         `yaml:"connect-string"`
