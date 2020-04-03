@@ -7,6 +7,9 @@ const (
 	OptionOverrideFile = 2
 	// OptionInternalForceDirectory INTERNAL USE, determin if need internal call
 	OptionInternalForceDirectory = 4
+
+	// OptionForceReadMaster INTERNAL USE, determin if need internal call
+	OptionForceReadMaster = 8
 )
 
 // NeedLockTable if the file need
@@ -22,4 +25,9 @@ func NeedOverrideFile(op int32) bool {
 // NeedForceOperateDirectory determin the file is a directory, continue process
 func NeedForceOperateDirectory(op int32) bool {
 	return op&OptionInternalForceDirectory == OptionInternalForceDirectory
+}
+
+// NeedForceForceReadMaster force read master
+func NeedForceForceReadMaster(op int32) bool {
+	return op&OptionForceReadMaster == OptionForceReadMaster
 }
