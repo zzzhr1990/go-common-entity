@@ -18,3 +18,8 @@ func NeedLockTable(op int32) bool {
 func NeedOverrideFile(op int32) bool {
 	return op&OptionOverrideFile == OptionOverrideFile
 }
+
+// NeedForceOperateDirectory determin the file is a directory, continue process
+func NeedForceOperateDirectory(op int32) bool {
+	return op&OptionInternalForceDirectory == OptionInternalForceDirectory
+}
