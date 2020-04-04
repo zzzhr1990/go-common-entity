@@ -10,6 +10,9 @@ const (
 
 	// OptionForceReadMaster INTERNAL USE, determin if need internal call
 	OptionForceReadMaster = 8
+
+	// OptionDisplayDeleteFile INTERNAL USE, determin if need internal call
+	OptionDisplayDeleteFile = 16
 )
 
 // NeedLockTable if the file need
@@ -30,4 +33,9 @@ func NeedForceOperateDirectory(op int32) bool {
 // NeedForceForceReadMaster force read master
 func NeedForceForceReadMaster(op int32) bool {
 	return op&OptionForceReadMaster == OptionForceReadMaster
+}
+
+// NeedDisplayDeleteFile Delete File
+func NeedDisplayDeleteFile(op int32) bool {
+	return op&OptionDisplayDeleteFile == OptionDisplayDeleteFile
 }
