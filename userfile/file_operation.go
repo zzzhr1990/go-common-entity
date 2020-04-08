@@ -13,6 +13,9 @@ const (
 
 	// OptionDisplayDeleteFile INTERNAL USE, determin if need internal call
 	OptionDisplayDeleteFile = 16
+
+	// OptionIgnoreExists override a file when exists
+	OptionIgnoreExists = 32
 )
 
 // NeedLockTable if the file need
@@ -38,4 +41,9 @@ func NeedForceForceReadMaster(op int32) bool {
 // NeedDisplayDeleteFile Delete File
 func NeedDisplayDeleteFile(op int32) bool {
 	return op&OptionDisplayDeleteFile == OptionDisplayDeleteFile
+}
+
+// NeedIgnoreExists if File exists, just ignore it
+func NeedIgnoreExists(op int32) bool {
+	return op&OptionIgnoreExists == OptionIgnoreExists
 }
