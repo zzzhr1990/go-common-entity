@@ -16,7 +16,15 @@ const (
 
 	// OptionIgnoreExists override a file when exists
 	OptionIgnoreExists = 32
+
+	// OptionDestnationIsFile the copy, move destnation is a file, not a directory
+	OptionDestnationIsFile = 64
 )
+
+// DestnationIsFile if the file need
+func DestnationIsFile(op int32) bool {
+	return op&OptionDestnationIsFile == OptionDestnationIsFile
+}
 
 // NeedLockTable if the file need
 func NeedLockTable(op int32) bool {
