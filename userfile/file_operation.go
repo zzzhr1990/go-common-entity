@@ -15,6 +15,8 @@ const (
 	OptionIgnoreExists = 32
 	// OptionDestnationIsFile the copy, move destnation is a file, not a directory
 	OptionDestnationIsFile = 64
+	// OptionForceDeleteFile Delete file not to trash
+	OptionForceDeleteFile = 128
 )
 
 // DestnationIsFile if the file need
@@ -50,4 +52,9 @@ func NeedDisplayDeleteFile(op int32) bool {
 // NeedIgnoreExists if File exists, just ignore it
 func NeedIgnoreExists(op int32) bool {
 	return op&OptionIgnoreExists == OptionIgnoreExists
+}
+
+// NeedForceDeleteFile delete file instead of move it to trash
+func NeedForceDeleteFile(op int32) bool {
+	return op&OptionForceDeleteFile == OptionForceDeleteFile
 }

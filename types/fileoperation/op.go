@@ -13,6 +13,8 @@ const (
 	CopyFileOperation = 4
 	// RenameOperation when file rename
 	RenameOperation = 5
+	// ForceDeleteOperation when file deleted but not to trash
+	ForceDeleteOperation = 6
 	// MoveBackOperation when file rename
 	MoveBackOperation = 10
 )
