@@ -7,16 +7,12 @@ const (
 	OptionOverrideFile = 2
 	// OptionInternalForceDirectory INTERNAL USE, determin if need internal call
 	OptionInternalForceDirectory = 4
-
-	// OptionForceReadMaster INTERNAL USE, determin if need internal call
+	// OptionForceReadMaster INTERNAL USE, force database read master
 	OptionForceReadMaster = 8
-
-	// OptionDisplayDeleteFile INTERNAL USE, determin if need internal call
+	// OptionDisplayDeleteFile INTERNAL USE, list deleted file
 	OptionDisplayDeleteFile = 16
-
-	// OptionIgnoreExists override a file when exists
+	// OptionIgnoreExists ignore file create when exists
 	OptionIgnoreExists = 32
-
 	// OptionDestnationIsFile the copy, move destnation is a file, not a directory
 	OptionDestnationIsFile = 64
 )
