@@ -2,7 +2,9 @@ package taskstatus
 
 // // github.com/zzzhr1990/go-common-entity/taskstatus
 const (
-	//Add tile
+	// Prepare task
+	Prepare int32 = 0
+	//Add add
 	Add int32 = 100
 	//Queue the process fetch but not start
 	Queue int32 = 200
