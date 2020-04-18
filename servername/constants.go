@@ -13,7 +13,7 @@ const (
 	//OfflineDownloadUserServiceName offline
 	UserOfflineServiceName = "user-offline-task"
 	//OfflineDownloadSystemServiceName server service
-	SystemOfflineServiceName = "system-offline-task"
+	OfflineSystemServiceName = "offline-system"
 	// MediaFilePreviewServiceName mfp
 	MediaFilePreviewServiceName = "media-file-preview"
 	// SubtitleServiceName service for subtitle
