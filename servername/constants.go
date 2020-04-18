@@ -11,7 +11,7 @@ const (
 	//RemoteTaskRPCServiceName file
 	TaskCenterRPCServiceName = "simple-task-center"
 	//OfflineDownloadUserServiceName offline
-	UserOfflineServiceName = "user-offline-task"
+	OfflineUserServiceName = "offline-user"
 	//OfflineDownloadSystemServiceName server service
 	OfflineSystemServiceName = "offline-system"
 	// MediaFilePreviewServiceName mfp
