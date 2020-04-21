@@ -18,4 +18,8 @@ const (
 	MediaFilePreviewServiceName = "media-file-preview"
 	// SubtitleServiceName service for subtitle
 	SubtitleServiceName = "subtitle"
+
+	// OfflineParserServiceName service for parser
+	OfflineParserServiceName = "offline-parser"
+	// offline-parser
 )
