@@ -28,4 +28,6 @@ const (
 	OfflineDownloadYoutube int32 = 5090
 	// OfflineCopyDirect if file completed, just copy user file
 	OfflineCopyDirect int32 = 6010
+
+	//OfflineS int32 = 2010
 )
