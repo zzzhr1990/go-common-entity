@@ -9,4 +9,7 @@ const (
 	OfflineFileUpload int32 = 2030
 	//OfflineFileError synced offline
 	OfflineFileError int32 = 2040
+
+	//OfflineSystemError synced offline
+	OfflineSystemError int32 = 2050
 )
