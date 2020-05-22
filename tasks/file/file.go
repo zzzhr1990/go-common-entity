@@ -41,4 +41,9 @@ const (
 
 	// CopyFile copy file to dest
 	CopyFile int32 = 1350
+
+	// MoveToCold move it to cold
+	MoveToCold int32 = 1410
+	// ClearHot clear hot
+	ClearHot int32 = 1420
 )
