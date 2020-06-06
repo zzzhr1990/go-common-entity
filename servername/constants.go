@@ -23,4 +23,5 @@ const (
 	// OfflineParserServiceName service for parser
 	OfflineParserServiceName = "offline-parser"
 	// offline-parser
+	BillCenterServiceName = "bill-center"
 )
