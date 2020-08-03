@@ -17,7 +17,21 @@ const (
 	OptionDestnationIsFile = 64
 	// OptionForceDeleteFile Delete file not to trash
 	OptionForceDeleteFile = 128
+	// OptionNotCreateFile not create file
+	OptionNotCreateFile = 256
+	// OptionIgnoreHeaderFileName ignore the file name
+	OptionIgnoreHeaderFileName = 512
 )
+
+// NotCreateFile not create file in user directory
+func NotCreateFile(op int32) bool {
+	return op&OptionNotCreateFile == OptionNotCreateFile
+}
+
+// IgnoreHeaderFileName igf
+func IgnoreHeaderFileName(op int32) bool {
+	return op&OptionIgnoreHeaderFileName == OptionIgnoreHeaderFileName
+}
 
 // DestnationIsFile if the file need
 func DestnationIsFile(op int32) bool {
