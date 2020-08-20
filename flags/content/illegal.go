@@ -11,7 +11,7 @@ const (
 	FlagTerrorContent int32 = 4
 
 	// CheckFlag            BIN 111
-	CheckFlag int32 = 7
+	CheckFlag int32 = 8
 )
 
 // IsPorn porn

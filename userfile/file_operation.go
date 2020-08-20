@@ -21,6 +21,8 @@ const (
 	OptionNotCreateFile = 256
 	// OptionIgnoreHeaderFileName ignore the file name
 	OptionIgnoreHeaderFileName = 512
+	// OptionTerminateWithIllegalFile if enable illegal file cannot be created
+	OptionTerminateWithIllegalFile = 1024
 )
 
 // NotCreateFile not create file in user directory
