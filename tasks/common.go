@@ -1,15 +1,16 @@
 package tasks
 
 const (
-	//OfflineSystemSync synced offline
+	// FileStoreChange when store changed
+	FileStoreChange int32 = 1020
+	// OfflineSystemSync synced offline
 	OfflineSystemSync int32 = 2010
-	//OfflineSystemComplete synced offline
+	// OfflineSystemComplete synced offline
 	OfflineSystemComplete int32 = 2020
-	//OfflineFileUpload synced offline
+	// OfflineFileUpload synced offline
 	OfflineFileUpload int32 = 2030
-	//OfflineFileError synced offline
+	// OfflineFileError synced offline
 	OfflineFileError int32 = 2040
-
-	//OfflineSystemError synced offline
+	// OfflineSystemError synced offline
 	OfflineSystemError int32 = 2050
 )
