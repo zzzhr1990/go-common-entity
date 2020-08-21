@@ -15,9 +15,6 @@ const (
 	// FilePornDetected detect pron
 	FilePornDetected int32 = 1010
 
-	// FileStoreChange detect pron
-	FileStoreChange int32 = 1020
-
 	// UserFileAdd detect pron
 	UserFileAdd int32 = 1100
 
