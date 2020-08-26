@@ -7,6 +7,7 @@ type KafkaConsumerConfig struct {
 	Mechanism string   `yaml:"mechanism"`
 	GroupID   string   `yaml:"group-id"`
 	Topic     string   `yaml:"topic"`
+	Partition int      `yaml:"partition"`
 	Brokers   []string `yaml:"brokers"`
 }
 
