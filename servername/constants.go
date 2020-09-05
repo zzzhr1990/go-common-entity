@@ -26,4 +26,6 @@ const (
 	OfflineParserServiceName = "offline-parser"
 	// offline-parser
 	BillCenterServiceName = "bill-center"
+	// ThirdPartyStoreRPC for third party store
+	ThirdPartyStoreRPC = "third-party-store"
 )
