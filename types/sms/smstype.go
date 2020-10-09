@@ -14,6 +14,12 @@ const (
 
 	// Confirm confirm action
 	Confirm int32 = 40
+
+	// CheckPreviousPhone confirm action
+	CheckPreviousPhone int32 = 50
+
+	// CheckNewPhone confirm action
+	CheckNewPhone int32 = 60
 )
 
 func test() {
