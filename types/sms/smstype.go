@@ -20,6 +20,9 @@ const (
 
 	// CheckNewPhone confirm action
 	CheckNewPhone int32 = 60
+
+	// DeleteAccount confirm action
+	DeleteAccount int32 = 70
 )
 
 func test() {
