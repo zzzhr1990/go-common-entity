@@ -2,9 +2,7 @@ package servername
 
 // github.com/zzzhr1990/go-common-entity/servername
 const (
-	//FileRPCServiceName file
-	FileRPCServiceName = "go-user-file"
-	//FileRPCServiceName file
+	// FileRPCServiceName file
 	FileRPC = "user-file"
 	//UserRPCServiceName file
 	UserRPCServiceName = "go-user-center"
@@ -28,4 +26,6 @@ const (
 	BillCenterServiceName = "bill-center"
 	// ThirdPartyStoreRPC for third party store
 	ThirdPartyStoreRPC = "third-party-store"
+	// ThirdPartyStoreRPC for third party store
+	ZipFileRPC = "zip-file"
 )
