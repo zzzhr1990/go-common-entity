@@ -4,6 +4,9 @@ package servername
 const (
 	// FileRPCServiceName file
 	FileRPC = "user-file"
+
+	// V5FileRPC file rpc for v5
+	V5FileRPC = "go-user-file"
 	//UserRPCServiceName file
 	UserRPCServiceName = "go-user-center"
 	//CloudSroreRPCServiceName file
