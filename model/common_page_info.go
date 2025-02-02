@@ -33,7 +33,7 @@ func (t *CommomListToken) ToTokenString() (string, error) {
 	return base64.URLEncoding.EncodeToString(data), nil
 }
 
-func FromTokenString(token string) (*CommomListToken, error) {
+func CommomListTokenFromTokenString(token string) (*CommomListToken, error) {
 	if len(token) == 0 {
 		return &CommomListToken{
 			OrderBy: []*OrderByInfo{},
