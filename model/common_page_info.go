@@ -37,12 +37,12 @@ func NewCommonListToken(skip, limit int64, orderBy []*OrderByInfo) *CommomListTo
 	return ts
 }
 
-func (t *CommomListToken) ToTokenString() (string, error) {
+func (t *CommomListToken) ToTokenString() string {
 	data, err := json.Marshal(t)
 	if err != nil {
-		return "", err
+		return ""
 	}
-	return base64.URLEncoding.EncodeToString(data), nil
+	return base64.URLEncoding.EncodeToString(data)
 }
 
 func CommomListTokenFromTokenString(token string) (*CommomListToken, error) {
