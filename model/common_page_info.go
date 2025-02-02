@@ -25,6 +25,18 @@ type OrderByInfo struct {
 	Asc   bool   `protobuf:"varint,2,opt,name=asc,proto3" json:"asc,omitempty"`
 }
 
+func NewCommonListToken(skip, limit int64, orderBy []*OrderByInfo) *CommomListToken {
+	ts := &CommomListToken{
+		Skip:    skip,
+		Limit:   limit,
+		OrderBy: orderBy,
+	}
+	if ts.OrderBy == nil {
+		ts.OrderBy = []*OrderByInfo{}
+	}
+	return ts
+}
+
 func (t *CommomListToken) ToTokenString() (string, error) {
 	data, err := json.Marshal(t)
 	if err != nil {
